@@ -21,4 +21,9 @@ router.get('/privacy', function(req, res, next) {
   res.render('privacy', { title: 'Privacy Policy' });
 });
 
+/* GET terms page. */
+router.get('/terms', function(req, res, next) {
+  res.render('terms', { title: 'Terms of Service' });
+});
+
 module.exports = router;
