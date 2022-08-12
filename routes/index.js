@@ -16,4 +16,9 @@ router.get('/contact', function(req, res, next) {
   res.render('contact', { title: 'Contact Us' });
 });
 
+/* GET privacy page. */
+router.get('/privacy', function(req, res, next) {
+  res.render('privacy', { title: 'Privacy Policy' });
+});
+
 module.exports = router;
